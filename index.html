@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Truck</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./img/logo/food-truck.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="main">
+        <!-- Navbar -->
+        <span id="navbar" class="navbar-fixed">
+            <a href="" id="navbar-logo-container"><img src="./img/logo/food-truck.png" alt="logo" id="navbar-logo"></a>
+            <div id="navbar-texto-contenedor">
+                <p id="navbar-titulo" class="navbar-texto-contenido">Crêpe Food Truck</p>
+                <div id="navbar-clickables" class="navbar-texto-contenido">
+                    <a href="#platos-frios">Fríos</a>
+                    <a href="#platos-calientes">Calientes</a>
+                    <a href="#platos-bebidas">Bebidas</a>
+                </div>
+            </div>
+        </span>
+
+        <!-- Contenido -->
+        <span id="content">
+            <div class="carousel-container">
+                <div class="carousel-titulo">
+                    <p class="carousel-titulo-texto">CRÊPE FOOD TRUCK</p>
+                </div>
+                <div id="carouselExampleFade" class="carousel slide carousel-fade carousel-main" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div id="carousel-img-1" class="d-block w-100 carousel-img"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="carousel-img-2" class="d-block w-100 carousel-img"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="carousel-img-3" class="d-block w-100 carousel-img"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <div id="carousel-img-4" class="d-block w-100 carousel-img"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="menu">
+
+                <!-- Título Menú -->
+                <div class="titulo-menu-container">
+                    <p class="titulo-menu">MENÚ</p>
+                </div>
+
+                <!-- Platos Fríos -->
+                <div class="platos-container" id="platos-frios">
+                    <div class="titulo-platos-container">
+                        <p class="titulo-platos">FRÍOS</p>
+                    </div>
+                    <div class="contenido-platos-container">
+                        <div class="row">
+                            <div class="plato-container plato-container-3" id="plato-1">
+                                <a href="./platos/fresas-con-nata.html" class="nombre-plato">Crêpe de fresas con nata</a>
+                            </div>
+                            <div class="plato-container plato-container-3" id="plato-3">
+                                <a href="./platos/huevo-salmon-ahuacate.html" class="nombre-plato">Crêpe de huevo, salmón y ahuacate</a>
+                            </div>
+                            <div class="plato-container plato-container-3" id="plato-4">
+                                <a href="./platos/platano.html" class="nombre-plato">Crêpe de plátano</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="plato-container plato-container-2" id="plato-7">
+                                <a href="./platos/ni-idea.html" class="nombre-plato">No tengo ni idea, la verdad</a>
+                            </div>
+                            <div class="plato-container plato-container-2" id="plato-8">
+                                <a href="./platos/fresas-con-frambuesa.html" class="nombre-plato">Crêpe de fresas con frambuesa</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Platos Calientes -->
+                <div class="platos-container" id="platos-calientes">
+                    <div class="titulo-platos-container">
+                        <p class="titulo-platos">CALIENTES</p>
+                    </div>
+                    <div class="contenido-platos-container">
+                        <div class="row">
+                            <div class="plato-container plato-container-2" id="plato-2">
+                                <a href="./platos/chocolate-con-nata.html" class="nombre-plato">Crêpe de chocolate con nata</a>
+                            </div>
+                            <div class="plato-container plato-container-2" id="plato-5">
+                                <a href="./platos/taco.html" class="nombre-plato">¿Crêpe taco?</a>
+                            </div>
+                        </div><div class="row">
+                            <div class="plato-container plato-container-2" id="plato-6">
+                                <a href="./platos/calamares-fritos.html" class="nombre-plato">Crêpe de calamares fritos</a>
+                            </div>
+                            <div class="plato-container plato-container-2" id="plato-9">
+                                <a href="./platos/nocilla.html" class="nombre-plato">Crêpe de nocilla</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bebidas --> 
+                <div class="platos-container" id="platos-bebidas" style="margin-bottom: 0;">
+                    <div class="titulo-platos-container">
+                        <p class="titulo-platos">BEBIDAS</p>
+                    </div>
+                    <div class="contenido-platos-container">
+                        <div class="row">
+                            <div class="plato-container plato-container-3" id="bebida-4">
+                                <p class="nombre-plato">Pepsi</p>
+                            </div>
+                            <div class="plato-container plato-container-3" id="bebida-2">
+                                <p class="nombre-plato">Coca-Cola</p>
+                            </div>
+                            <div class="plato-container plato-container-3" id="bebida-3">
+                                <p class="nombre-plato">Fanta</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="plato-container plato-container-4" id="bebida-1">
+                                <p class="nombre-plato">Agua</p>
+                            </div>
+                            <div class="plato-container plato-container-4" id="bebida-5">
+                                <p class="nombre-plato">Café con leche</p>
+                            </div>
+                            <div class="plato-container plato-container-4" id="bebida-6">
+                                <p class="nombre-plato">Cerveza</p>
+                            </div>
+                            <div class="plato-container plato-container-4" id="bebida-7">
+                                <p class="nombre-plato">Cerveza sin alcohol</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </span>
+    </div>
+</body>
+
+</html>
