@@ -71,3 +71,41 @@ body {
 #plato-9 {
   background-image: url('../img/platos/calientes/plato-9.png');
 }
+@media only screen and (max-width: 1050px) {
+  .contenido-platos-container {
+    height: 200vh !important;
+  }
+  .row {
+    height: 50% !important;
+    align-content: flex-start !important;
+  }
+  .plato-container-2 {
+    width: 100% !important;
+    height: 50% !important;
+  }
+  .plato-container-3 {
+    width: 100% !important;
+    height: 33.33% !important;
+  }
+  .plato-container-4 {
+    width: 100% !important;
+    height: 25% !important;
+  }
+  #navbar-logo-container {
+    display: none !important;
+  }
+  #navbar-titulo {
+    display: none !important;
+  }
+  #navbar-texto-contenedor {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100vw !important;
+    justify-content: center !important;
+  }
+  #navbar-texto-contenedor #navbar-clickables {
+    width: 100% !important;
+    margin: 0 !important;
+    justify-content: center !important;
+  }
+}
